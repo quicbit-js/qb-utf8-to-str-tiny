@@ -1,7 +1,4 @@
-var test = require('test-kit').tape()
-var utf8_to_str = require('.')
-
-test('utf8_to_str', function(t) {
+require('test-kit').tape()('utf8_to_str', function(t) {
     t.tableAssert(
         [
             [ 'a',                                   'exp'                    ],
@@ -10,6 +7,6 @@ test('utf8_to_str', function(t) {
             [ [ 34,97,98,99,34,37 ],                 '"abc"%'                 ],
             [ [ 34,97,98,99,34,37,10 ],              '"abc"%\n'                 ],
         ],
-        utf8_to_str
+        require('.')
     )
 })

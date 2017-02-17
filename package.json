@@ -2,10 +2,10 @@
   "name": "qb-utf8-to-str-tiny",
   "version": "1.0.0",
   "description": "tiny browser script for converting utf-8 to string.  not efficient for large files.",
-  "homepage": "https://github.com/quicbit-js/qb-utf8-to-str",
-  "url": "https://github.com/quicbit-js/qb-utf8-to-str/issues",
+  "homepage": "https://github.com/quicbit-js/qb-utf8-to-str-tiny",
+  "url": "https://github.com/quicbit-js/qb-utf8-to-str-tiny/issues",
   "email": "support@quicbit.com",
-  "repository": "quicbit-js/qb-utf8-to-str",
+  "repository": "quicbit-js/qb-utf8-to-str-tiny",
   "devDependencies": {
     "tape": "^4.6.3",
     "test-kit": "^1.1.2"
