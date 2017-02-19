@@ -1,7 +1,7 @@
 # qb-utf8-to-str-tiny
 
-Tiny browser script for converting utf-8 to string based upon decodeURIComponent().  
-Not efficient for very large strings.
+Tiny script for converting utf-8 to string based upon decodeURIComponent().  
+Runs in nodejs and in browser.  Not efficient for large strings.
 
     module.exports = function utf8_to_str(a) {
         for(var i=0, s=''; i<a.length; i++) {
