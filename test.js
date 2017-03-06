@@ -1,7 +1,7 @@
 require('test-kit').tape()('utf8_to_str', function(t) {
     t.tableAssert(
         [
-            [ 'a',                                     'off',  'lim',    'exp'             ],
+            [ 'src',                                   'off',  'lim',    'exp'             ],
             [ [ ],                                     null,    null,    ''                ],
             [ [ 0x61 ],                                null,    null,    'a'               ],
             [ [ 0x61,0x62,0x63,0xF0,0x90,0x90,0x80 ],  null,    null,    'abc\uD801\uDC00' ],
