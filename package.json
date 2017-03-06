@@ -1,6 +1,6 @@
 {
   "name": "qb-utf8-to-str-tiny",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "tiny browser script for converting array of UTF-8 characters to string.  not efficient for large files.",
   "homepage": "https://github.com/quicbit-js/qb-utf8-to-str-tiny",
   "url": "https://github.com/quicbit-js/qb-utf8-to-str-tiny/issues",
