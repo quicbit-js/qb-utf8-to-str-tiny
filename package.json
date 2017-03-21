@@ -8,11 +8,14 @@
   "repository": "quicbit-js/qb-utf8-to-str-tiny",
   "devDependencies": {
     "tape": "^4.6.3",
-    "test-kit": "^2.1.2"
+    "test-kit": "^2.2.2"
   },
   "scripts": {
     "test": "tap --coverage-report=html test.js"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "UTF8",
     "UTF-8",
