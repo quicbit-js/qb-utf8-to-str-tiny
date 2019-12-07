@@ -44,7 +44,6 @@ That's it.  That's the code.
     
     node
     > var utf2str = require('qb-utf8-to-str-tiny')
-    undefined
     > utf2str([ 103,195,174,100,100,195,177,117,112,240,144,130,131,33 ])
     'gîddñup𐂃!'
 
