@@ -34,10 +34,35 @@ That's it.  That's the code.
 **Complies with the 100% test coverage and minimum dependency requirements** of 
 [qb-standard](http://github.com/quicbit-js/qb-standard) . 
 
-
 # Install
 
     npm install qb-utf8-to-str-tiny
+
+## Example
+
+    npm install qb-utf8-to-str-tiny
+    
+    node
+    > var utf2str = require('qb-utf8-to-str-tiny')
+    undefined
+    > utf2str([ 103,195,174,100,100,195,177,117,112,240,144,130,131,33 ])
+    'gîddñup𐂃!'
+
+
+## API
+
+### utf8_to_str (src, off, lim)
+
+* [src](https://github.com/quicbit-js/qb-standard/blob/master/doc/variable-glossary.md#src-source): an 
+array or typed-array containing bytes or unsigned integers in UTF-8 format. 
+
+* [off](https://github.com/quicbit-js/qb-standard/blob/master/doc/variable-glossary.md#off-offset): an 
+inclusive byte offset where to start conversion
+
+* [lim](https://github.com/quicbit-js/qb-standard/blob/master/doc/variable-glossary.md#lim-limit): an
+exclusive byte offset where to stop conversion
+
+
     
     
     
